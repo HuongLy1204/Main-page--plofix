@@ -7,7 +7,6 @@ import Rating from "@mui/material/Rating";
 import { useState } from "react";
 import Avatar from "../../../assets/img-profile.png";
 import Sticker from "./StickerSponsored/Sticker";
-import Stick from "./StickerSponsored/Sticker";
 import "./style.css";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
