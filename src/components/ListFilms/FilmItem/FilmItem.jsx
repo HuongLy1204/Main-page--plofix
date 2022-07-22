@@ -12,12 +12,12 @@ import "./style.css";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
-function FilmItem() {
+function FilmItem({ film }) {
   const [value, setValue] = useState(2);
   const [hover, setHover] = useState(-1);
   return (
     <div className="box-container">
-      <Sticker/>
+      {film.isSponsored ? <Sticker /> : null}
       <div className="box">
         <div className="Upload-date-2021-11-29">
           <div className="date-container">
@@ -30,6 +30,7 @@ function FilmItem() {
                 icon={<BookmarkBorderIcon />}
                 checkedIcon={<BookmarkIcon />}
                 color="warning"
+                checked={film.isSave}
               />
             </div>
           </div>
@@ -57,7 +58,7 @@ function FilmItem() {
             >
               <Rating
                 name="hover-feedback"
-                value={value}
+                defaultValue={film.rating}
                 precision={0.5}
                 onChange={(event, newValue) => {
                   setValue(newValue);

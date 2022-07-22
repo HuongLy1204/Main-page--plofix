@@ -5,8 +5,8 @@ import RefreshIcon from "@mui/icons-material/Refresh";
 import { useState } from "react";
 import "./style.css";
 
-const locations = ["CANADA & USA", "EUROPE", "SOUTH KOREAN"];
-const years = [
+const LOCATIONS = ["CANADA & USA", "EUROPE", "SOUTH KOREAN"];
+const YEARS = [
   "2022",
   "2021",
   "2020",
@@ -62,7 +62,7 @@ function FilterFilm() {
             >
               Select Location
             </MenuItem>
-            {locations.map((item) => {
+            {LOCATIONS.map((item) => {
               return (
                 <MenuItem
                   style={{
@@ -104,7 +104,7 @@ function FilterFilm() {
             >
               Select year
             </MenuItem>
-            {years.map((item) => {
+            {YEARS.map((item) => {
               return (
                 <MenuItem
                   style={{
