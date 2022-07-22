@@ -18,4 +18,21 @@
 }
 .filter {
   height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.filter-item {
+  flex: 1;
+  height: 60px;
+  padding: 15px;
+}
+.filter-title {
+  padding: 0;
+  margin: 0;
+}
+.MuiOutlinedInput-root {
+  border: none;
+}
+path {
+  display: none;
 }
