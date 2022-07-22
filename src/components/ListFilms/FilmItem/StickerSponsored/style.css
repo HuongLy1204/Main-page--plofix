@@ -1,0 +1,25 @@
+.sponsored {
+    position: absolute;
+    border-top: 80px solid rgb(219, 219, 219);
+    border-right: 80px solid transparent;
+  }
+  .title-sticker {
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    transform: rotate(315deg);
+    margin: 15px;
+    width: 70px;
+    height: 70px;
+  }
+  .circle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+  }

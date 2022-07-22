@@ -1,0 +1,100 @@
+.box-pack {
+    width: 180px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px 0 rgba(165, 189, 213, 0.16);
+    border: solid 1px #ededed;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .line {
+
+    height: 1px;
+width: 80%;
+
+    background-color: #ededed;
+  }
+  .type {
+   
+
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222;
+    margin: 15px 0 5px ;
+  }
+  .value{
+
+
+        margin: 7px 0;
+        font-family: Montserrat;
+        font-size: 38px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ff6900;
+
+  }
+  .vat{
+   
+        font-family: Montserrat;
+        font-size: 6px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #808080;
+
+  }
+  .Credit {
+    margin:15px;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222;
+
+  }
+  .Total-Credit {
+    margin: 10px 0 5px 0;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #808080;
+  }
+  .total{
+   
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #222;
+        margin-bottom: 20px;
+      
+  }

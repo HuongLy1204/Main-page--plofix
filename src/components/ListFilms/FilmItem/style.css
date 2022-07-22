@@ -1,0 +1,174 @@
+.box-container {
+  width: 260px;
+  height: 320px;
+  display: flex;
+  position: relative;
+}
+
+
+.box {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  box-shadow: 0 8px 30px 0 rgba(165, 189, 213, 0.11);
+  background-color: rgb(255, 254, 254);
+}
+.Upload-date-2021-11-29 {
+  flex: 0.1;
+  /* position:absolute; */
+  width: 200px;
+  /* margin: 10px 8px 2px 60px; */
+}
+.Upload-date-2021-11-29-content {
+  font-family: Montserrat;
+  font-size: 8px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #222;
+  margin: 0 10px;
+}
+.date-container {
+  width: 100%;
+  display: flex;
+  flex: 10%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px 5px 5px 35px;
+}
+.img_pattern {
+  flex: 50%;
+  width: 190px;
+  /* height: 100px; */
+  background-color: rgb(155, 155, 155);
+  margin: 5px 35px;
+}
+
+.title-container {
+  width: 200px;
+  flex: 10%;
+  margin: 0 14px;
+  display: flex;
+  flex-direction: column;
+}
+.CANADA-USA-2021-TOYOTA-CAMRY-XLE-HYBRID {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+}
+.OUT-FRONT-BUMPER {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #808080;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  margin: 5px 0;
+
+  background-color: #ededed;
+}
+.rate-container {
+  flex: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-side {
+  flex: 1;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.-Credit {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0046a6;
+}
+.-downloads {
+  font-family: Montserrat;
+  font-size: 8px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #808080;
+}
+.info-container {
+  flex: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px 5px 10px;
+}
+.info-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+img.img-profile {
+  width: 20px;
+  height: 20px;
+  /* margin: 12px 4px 0 20px; */
+  object-fit: contain;
+}
+.By-benzz {
+  margin-left: 5px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+}
+.info-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Advanced {
+  font-family: Montserrat;
+  font-size: 8px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222;
+  margin-left: 5px;
+}
